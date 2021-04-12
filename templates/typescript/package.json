@@ -1,0 +1,37 @@
+{
+  "name": "wind-waker-app",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "rimraf ./lib && tsc",
+    "lint": "eslint --ignore-pattern '/lib/' '*/**/*.ts' --quiet --fix",
+    "start": "node ./lib/index.js",
+    "dev": "WW_MODE=development ts-node-dev --respawn --clear src/index.ts",
+    "dev:ui": "(yarn ui) & yarn dev",
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "ui": "http-server ./ui -o -a localhost -p 8090 --silent"
+  },
+  "dependencies": {
+    "wind-waker": "^1.3.0"
+  },
+  "devDependencies": {
+    "@types/jest": "26.0.7",
+    "@types/node": "^14.0.23",
+    "@typescript-eslint/eslint-plugin": "^3.6.1",
+    "@typescript-eslint/parser": "^3.6.1",
+    "eslint": "^7.4.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "http-server": "^0.12.3",
+    "jest": "^26.1.0",
+    "prettier": "^2.0.5",
+    "rimraf": "^3.0.2",
+    "ts-jest": "^26.1.2",
+    "ts-node-dev": "^1.0.0-pre.56",
+    "typescript": "^4.2.4"
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "license": "MIT"
+}
