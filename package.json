@@ -1,0 +1,35 @@
+{
+  "name": "wind-waker-cli",
+  "version": "0.0.0-semantically-released",
+  "main": "main.js",
+  "bin": {
+    "wind-waker": "./bin/wind-waker.js"
+  },
+  "repository": "git@github.com:Cervantes007/wind-waker-cli.git",
+  "license": "MIT",
+  "scripts": {
+    "commit": "git-cz",
+    "semver": "semantic-release"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "esm": "^3.2.25",
+    "inquirer": "^7.3.3",
+    "ncp": "^2.0.0",
+    "ora": "^4.0.5",
+    "pkg-install": "^1.0.0",
+    "shelljs": "^0.8.4"
+  },
+  "devDependencies": {
+    "@semantic-release/changelog": "^5.0.1",
+    "@semantic-release/git": "^9.0.0",
+    "cz-conventional-changelog": "^3.2.0",
+    "prettier": "^2.0.5",
+    "semantic-release": "^17.1.1"
+  }
+}
