@@ -1,7 +1,7 @@
 import { app } from './app';
 
-const port = 4000;
+const port = process.env.PORT || 4000;
 
-app.listen(port).then(() => {
-  console.log(`Wind Waker is up and running on port ${port}`);
+app.start(+port).then(() => {
+  console.log(`Wind Waker is up and running on http://localhost:${port}`);
 });
