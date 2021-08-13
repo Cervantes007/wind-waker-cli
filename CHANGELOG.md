@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/Cervantes007/wind-waker-cli/compare/v1.2.0...v1.3.0) (2021-08-13)
+
+
+### Features
+
+* **version:** update-to-date wind-waker version ([506f62e](https://github.com/Cervantes007/wind-waker-cli/commit/506f62ef99e848332fd92fe2a3db573677a4f1b9))
+
 # [1.2.0](https://github.com/Cervantes007/wind-waker-cli/compare/v1.1.0...v1.2.0) (2021-08-13)
 
 
