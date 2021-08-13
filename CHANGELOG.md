@@ -1,3 +1,10 @@
+## [1.3.1](https://github.com/Cervantes007/wind-waker-cli/compare/v1.3.0...v1.3.1) (2021-08-13)
+
+
+### Bug Fixes
+
+* **pipe:** rename cors pipe to $cors ([13d1241](https://github.com/Cervantes007/wind-waker-cli/commit/13d12414468b5c04c366fea6c3ab58cbddddfc28))
+
 # [1.3.0](https://github.com/Cervantes007/wind-waker-cli/compare/v1.2.0...v1.3.0) (2021-08-13)
 
 
