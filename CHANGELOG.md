@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/Cervantes007/wind-waker-cli/compare/v1.1.0...v1.2.0) (2021-08-13)
+
+
+### Features
+
+* **template:** update template to include ui and gitignore files ([58b061c](https://github.com/Cervantes007/wind-waker-cli/commit/58b061c568c9a45934c24d11c62846ef102de969))
+
 # [1.1.0](https://github.com/Cervantes007/wind-waker-cli/compare/v1.0.0...v1.1.0) (2021-08-12)
 
 
