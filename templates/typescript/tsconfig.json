@@ -2,7 +2,7 @@
   "compilerOptions": {
     "target": "ES2017",
     "module": "commonjs",
-    "outDir": "./lib/",
+    "outDir": "./build/",
     "sourceMap": true,
     "removeComments": false,
     "noImplicitAny": false,
